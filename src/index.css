@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.logoContainer{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.nameContainer{
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.signInContainer {
+    background-color: #fff4d9;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    width: 400px;
+}
+
+.signInContainer h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.signInContainer p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffa800;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e69500;
+}
+
